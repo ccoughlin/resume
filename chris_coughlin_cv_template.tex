@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% \href{https://www.overleaf.com}{Overleaf website}
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,
+	urlcolor=MidnightBlue,
+	pdftitle={CV},
+	pdfauthor={Chris Coughlin},
+	%pdfpagemode=FullScreen,
+}
+
+
+%------------------------------------------------
+
+\name{Chris Coughlin} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{\href{https://www.chriscoughlin.com}{Personal Website} \\ \href{http://www.linkedin.com/in/chrisrcoughlin}{LinkedIn} \\ \href{https://github.com/ccoughlin}{GitHub}} % Main address
+
+%\address{} % A secondary address (optional)
+
+%\address{} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Recent Experience}
+	\begin{rSubsection}{NTT DATA}{December 2024 - Present}{Data Science Engineer Advisor}{Minneapolis, MN}
+		\item Explainable AI for estimating physical security risk for a Fortune 500 healthcare provider's facilities
+		\item Recommendation system cold start mitigation pipeline for a top interactive entertainment company
+		\item Ported 4 Azure Synapse models to production Azure ML pipelines in 1 month for a premier soft drink manufacturing company
+		\item Feasibility of GraphRAG built on Azure CosmosDB (internal sales)
+		\item Self-contained open source Llama RAG framework for a leading construction engineering company
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Datasite}{November 2021 - December 2024}{Senior AI/ML Scientist}{Minneapolis MN}
+		\item Interactive agentic chat with one or more documents in a Virtual Data Room (VDR)
+		\item Fine-tuned open source LLMs for entity extraction and document classification
+		\item Hierarchical taxonomy document classification deep learning model
+		\item Deep learning model for strategic and financial investment recommendations
+	\end{rSubsection}
+
+	\begin{rSubsection}{U.S. Bank Wealth Management and Investment Services}{April 2019 - November 2021}{Data Scientist Officer}{Richfield, MN}
+		\item Stock dividend forecasting
+		\item Explainable AI for predicting failure in mission critical applications
+		\item Anomaly detection for flagging unusual fund transactions in near real-time
+		\item Survival analysis for predicting customer attrition
+	\end{rSubsection}
+	
+	\begin{rSubsection}{C.H. Robinson}{April 2017 - April 2019}{Data Science Engineer}{Eden Prairie, MN}
+		\item Deep learning model for classifying shipping documents. Scanned more than 35,000 documents per day in production with an accuracy of 96\%
+		\item Deep learning model for tagging signed vs. unsigned shipping documents
+		\item Procedure for placing "orphaned" documents with the correct shipment to reduce invoice processing time
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Emphysic LLC}{August 2015 - October 2019}{Founder and CEO}{Hopkins, MN}
+		\item Founded NASA-funded startup
+		\item Distributed fault-tolerant machine learning algorithm for finding cracks and other defects in aircraft
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Additional Experience}{}{}{}
+		\item Data Science Engineer (Contata Solutions, Minneapolis MN)
+		\item Computational Physics Programmer (AECL, Chalk River ON)
+		\item Applied Physicist (Texas Research Institute Inc., Austin TX)
+	\end{rSubsection}
+
+\end{rSection}
+
+\pagebreak
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{Queen's University} \hfill \\ 
+	M.Sc. Physics
+	
+	\textbf{Lakehead University} \hfill \\ 
+	HBSc. Physics
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Core Competencies}
+	
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Analytics & Data Science, Statistical Analysis \\
+		AI/ML & Deep Learning, Natural Language Processing, Anomaly Detection, Time Series Forecasting \\
+		GenAI & RAG, GraphRAG, Agentic applications, fine-tuned LLMs \\
+		Software Development & Python, Pandas, Polars, Agile, Git, REST
+	\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Patents}
+	\textbf{\href{https://patents.google.com/patent/US7080555B2/en22}{US7080555B2}} \hfill \\ 
+	Distributed Mode System for Real-Time Acoustic Emission Monitoring
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+	%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
